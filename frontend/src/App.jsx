@@ -104,6 +104,8 @@ function App() {
     setAnswer("");
 
     try {
+
+
       const response = await fetch(`${API_BASE}/api/questions/ask`, {
         method: "POST",
 
