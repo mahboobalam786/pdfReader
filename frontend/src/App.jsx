@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Hero from "./components/hero";
 import PdfUpload from "./components/PdfUpload";
 import QuestionBox from "./components/QuestionBox";
 import Answer from "./components/Answer";
