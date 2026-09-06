@@ -7,7 +7,7 @@ import PdfUpload from "./components/PdfUpload";
 import QuestionBox from "./components/QuestionBox";
 import Answer from "./components/Answer";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://pdfreader-77ah.onrender.com";
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
