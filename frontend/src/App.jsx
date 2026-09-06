@@ -61,7 +61,7 @@ function App() {
     formData.append("pdf", selectedFile);
 
     try {
-      const response = await fetch(`${API_BASE}/pdf/upload`, {
+      const response = await fetch(`${API_BASE}/api/pdf/upload`, {
         method: "POST",
         body: formData,
       });
@@ -104,7 +104,7 @@ function App() {
     setAnswer("");
 
     try {
-      const response = await fetch(`${API_BASE}/questions/ask`, {
+      const response = await fetch(`${API_BASE}/api/questions/ask`, {
         method: "POST",
 
         headers: {
